@@ -1,21 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 import Carrinho from './src/pages/Carrinho/index';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View>
       <Carrinho/>
-      <StatusBar style="auto" />
+      <StatusBar/>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
