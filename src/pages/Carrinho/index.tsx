@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Image } from 'react-native';
 
 export default function Carrinho() {
-    return <Text>Carrinho de compras</Text>
+    return <Image source="../../../assets/imagens/topo.png"/>
 }
